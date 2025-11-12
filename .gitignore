@@ -5,3 +5,4 @@ wikijs_mcp.log
 wikijs_mappings.db
 uv.lock
 test_output.log
+*.log
