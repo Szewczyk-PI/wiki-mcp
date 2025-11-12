@@ -1,3 +1,7 @@
 .env
 __pycache__/
 .DS_Store
+wikijs_mcp.log
+wikijs_mappings.db
+uv.lock
+test_output.log
