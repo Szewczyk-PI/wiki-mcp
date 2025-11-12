@@ -1,0 +1,276 @@
+============================================================
+Testing MCP Integration with Wiki Agent
+============================================================
+
+Agent: Wiki Knowledge Expert
+Goal: Search and retrieve information from Wiki database Zawszę użyj narzędzia dostęnych przez mcp
+MCP Servers: 1
+
+============================================================
+Executing test task with CrewAI...
+============================================================
+
+╭───────────────────────────── 🔌 MCP Connection ──────────────────────────────╮
+│                                                                              │
+│  MCP Connection Started                                                      │
+│                                                                              │
+│  Server:                                                                     │
+│  /Users/jakubszewczyk/Documents/Wiki/wiki/src/wiki/wiki-js-mcp/venv/bin/pyt  │
+│  hon3                                                                        │
+│  /Users/jakubszewczyk/Documents/Wiki/wiki/src/wiki/wiki-js-mcp/src/wiki_mcp  │
+│  _server.py                                                                  │
+│  Transport: stdio                                                            │
+│  Timeout: 30s                                                                │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────── Crew Execution Started ───────────────────────────╮
+│                                                                              │
+│  Crew Execution Started                                                      │
+│  Name: crew                                                                  │
+│  ID: 5e9f6cbf-b4ad-46c9-9c9f-d5835d854901                                    │
+│  Tool Args:                                                                  │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+/Users/jakubszewczyk/Documents/Wiki/wiki/src/wiki/wiki-js-mcp/src/wiki_mcp_server.py:34: PydanticDeprecatedSince20: Support for class-based `config` is deprecated, use ConfigDict instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.12/migration/
+  class Settings(BaseSettings):
+
+
+╭──────────────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│                         ▄▀▀ ▄▀█ █▀▀ ▀█▀ █▀▄▀█ █▀▀ █▀█                        │
+│                         █▀  █▀█ ▄▄█  █  █ ▀ █ █▄▄ █▀▀                        │
+│                                                                              │
+│                               FastMCP 2.13.0.2                               │
+│                                                                              │
+│                                                                              │
+│                    🖥  Server name: Wiki.js Integration                       │
+│                                                                              │
+│                    📦 Transport:   STDIO                                     │
+│                                                                              │
+│                    📚 Docs:        https://gofastmcp.com                     │
+│                    🚀 Hosting:     https://fastmcp.cloud                     │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+
+[11/11/25 19:14:38] INFO     Starting MCP server 'Wiki.js         server.py:1966
+                             Integration' with transport 'stdio'                
+╭────────────────────────────── ✅ MCP Connected ──────────────────────────────╮
+│                                                                              │
+│  MCP Connection Completed                                                    │
+│                                                                              │
+│  Server:                                                                     │
+│  /Users/jakubszewczyk/Documents/Wiki/wiki/src/wiki/wiki-js-mcp/venv/bin/pyt  │
+│  hon3                                                                        │
+│  /Users/jakubszewczyk/Documents/Wiki/wiki/src/wiki/wiki-js-mcp/src/wiki_mcp  │
+│  _server.py                                                                  │
+│  Transport: stdio                                                            │
+│  Duration: 1005.00ms                                                         │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2025-11-11 19:14:38,952 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+🚀 Crew: crew
+└── 📋 Task: 0553adeb-0ec9-4965-91ee-2734491174fc
+    Status: Executing Task...╭────────────────────────────── 🤖 Agent Started ──────────────────────────────╮
+│                                                                              │
+│  Agent: Wiki Knowledge Expert                                                │
+│                                                                              │
+│  Task: Use the 'Check Wiki Connection' tool from MCP to verify connection    │
+│  to Wiki.js server. Report the connection status.                            │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+🚀 Crew: crew
+└── 📋 Task: 0553adeb-0ec9-4965-91ee-2734491174fc
+    Status: Executing Task...
+    └── 🔧 Using 
+        /Users/jakubszewczyk/Documents/Wiki/wiki/src/wiki/wiki-js-mcp/venv/bin/p
+        ython3_/Users/jakubszewczyk/Documents/Wiki/wiki/src/wiki/wiki-js-mcp/src
+        /wiki_mcp_server.py_wikijs_connection_status (1)╭───────────────────────────── 🔌 MCP Connection ──────────────────────────────╮
+│                                                                              │
+│  MCP Connection Started (Reconnecting)                                       │
+│                                                                              │
+│  Server:                                                                     │
+│  /Users/jakubszewczyk/Documents/Wiki/wiki/src/wiki/wiki-js-mcp/venv/bin/pyt  │
+│  hon3                                                                        │
+│  /Users/jakubszewczyk/Documents/Wiki/wiki/src/wiki/wiki-js-mcp/src/wiki_mcp  │
+│  _server.py                                                                  │
+│  Transport: stdio                                                            │
+│  Timeout: 30s                                                                │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+/Users/jakubszewczyk/Documents/Wiki/wiki/src/wiki/wiki-js-mcp/src/wiki_mcp_server.py:34: PydanticDeprecatedSince20: Support for class-based `config` is deprecated, use ConfigDict instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.12/migration/
+  class Settings(BaseSettings):
+
+
+╭──────────────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│                         ▄▀▀ ▄▀█ █▀▀ ▀█▀ █▀▄▀█ █▀▀ █▀█                        │
+│                         █▀  █▀█ ▄▄█  █  █ ▀ █ █▄▄ █▀▀                        │
+│                                                                              │
+│                               FastMCP 2.13.0.2                               │
+│                                                                              │
+│                                                                              │
+│                    🖥  Server name: Wiki.js Integration                       │
+│                                                                              │
+│                    📦 Transport:   STDIO                                     │
+│                                                                              │
+│                    📚 Docs:        https://gofastmcp.com                     │
+│                    🚀 Hosting:     https://fastmcp.cloud                     │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+
+[11/11/25 19:14:41] INFO     Starting MCP server 'Wiki.js         server.py:1966
+                             Integration' with transport 'stdio'                
+╭────────────────────────────── ✅ MCP Connected ──────────────────────────────╮
+│                                                                              │
+│  MCP Connection Completed (Reconnected)                                      │
+│                                                                              │
+│  Server:                                                                     │
+│  /Users/jakubszewczyk/Documents/Wiki/wiki/src/wiki/wiki-js-mcp/venv/bin/pyt  │
+│  hon3                                                                        │
+│  /Users/jakubszewczyk/Documents/Wiki/wiki/src/wiki/wiki-js-mcp/src/wiki_mcp  │
+│  _server.py                                                                  │
+│  Transport: stdio                                                            │
+│  Duration: 591.40ms                                                          │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────── 🔧 MCP Tool ─────────────────────────────────╮
+│                                                                              │
+│  MCP Tool Execution Started                                                  │
+│  Name: wikijs_connection_status                                              │
+│  Server:                                                                     │
+│  /Users/jakubszewczyk/Documents/Wiki/wiki/src/wiki/wiki-js-mcp/venv/bin/pyt  │
+│  hon3                                                                        │
+│  /Users/jakubszewczyk/Documents/Wiki/wiki/src/wiki/wiki-js-mcp/src/wiki_mcp  │
+│  _server.py                                                                  │
+│  Tool Args: {}                                                               │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2025-11-11 19:14:41,051 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-11-11 19:14:41,946 - httpx - INFO - HTTP Request: POST http://wiki.d00pa.pl/graphql "HTTP/1.1 500 Internal Server Error"
+2025-11-11 19:14:41,947 - __main__ - ERROR - Wiki.js GraphQL HTTP error 500: {"data":{},"errors":[{"message":"API is disabled. You must enable it from the Administration Area first.","path":[]}]}
+2025-11-11 19:14:45,994 - httpx - INFO - HTTP Request: POST http://wiki.d00pa.pl/graphql "HTTP/1.1 500 Internal Server Error"
+2025-11-11 19:14:45,995 - __main__ - ERROR - Wiki.js GraphQL HTTP error 500: {"data":{},"errors":[{"message":"API is disabled. You must enable it from the Administration Area first.","path":[]}]}
+2025-11-11 19:14:50,039 - httpx - INFO - HTTP Request: POST http://wiki.d00pa.pl/graphql "HTTP/1.1 500 Internal Server Error"
+2025-11-11 19:14:50,040 - __main__ - ERROR - Wiki.js GraphQL HTTP error 500: {"data":{},"errors":[{"message":"API is disabled. You must enable it from the Administration Area first.","path":[]}]}
+2025-11-11 19:14:50,047 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+╭─────────────────────────── ✅ MCP Tool Completed ────────────────────────────╮
+│                                                                              │
+│  MCP Tool Execution Completed                                                │
+│  Name: wikijs_connection_status                                              │
+│  Server:                                                                     │
+│  /Users/jakubszewczyk/Documents/Wiki/wiki/src/wiki/wiki-js-mcp/venv/bin/pyt  │
+│  hon3                                                                        │
+│  /Users/jakubszewczyk/Documents/Wiki/wiki/src/wiki/wiki-js-mcp/src/wiki_mcp  │
+│  _server.py                                                                  │
+│  Tool Args: {}                                                               │
+│  Duration: 9005.38ms                                                         │
+│                                                                              │
+│  Result: {"connected": false, "authenticated": false, "api_url":             │
+│  "http://wiki.d00pa.pl", "error": "RetryError[<Future at 0x10cb7d1d0         │
+│  state=finished raised Exception>]", "status": "connection_failed"}          │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+🚀 Crew: crew
+└── 📋 Task: 0553adeb-0ec9-4965-91ee-2734491174fc
+    Status: Executing Task...
+    ├── 🔧 Used 
+    │   /Users/jakubszewczyk/Documents/Wiki/wiki/src/wiki/wiki-js-mcp/venv/bin/p
+    │   ython3_/Users/jakubszewczyk/Documents/Wiki/wiki/src/wiki/wiki-js-mcp/src
+    │   /wiki_mcp_server.py_wikijs_connection_status (1)
+    └── 🧠 Thinking...╭────────────────────────── 🔧 Agent Tool Execution ───────────────────────────╮
+│                                                                              │
+│  Agent: Wiki Knowledge Expert                                                │
+│                                                                              │
+│  Thought: The user wants to verify the connection to the Wiki.js server.     │
+│  The `wikijs_connection_status` tool is available for this purpose. I        │
+│  should call this tool and report the status.                                │
+│                                                                              │
+│  Using Tool:                                                                 │
+│  /Users/jakubszewczyk/Documents/Wiki/wiki/src/wiki/wiki-js-mcp/venv/bin/pyt  │
+│  hon3_/Users/jakubszewczyk/Documents/Wiki/wiki/src/wiki/wiki-js-mcp/src/wik  │
+│  i_mcp_server.py_wikijs_connection_status                                    │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭───────────────────────────────── Tool Input ─────────────────────────────────╮
+│                                                                              │
+│  {}                                                                          │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭──────────────────────────────── Tool Output ─────────────────────────────────╮
+│                                                                              │
+│  {"connected": false, "authenticated": false, "api_url":                     │
+│  "http://wiki.d00pa.pl", "error": "RetryError[<Future at 0x10cb7d1d0         │
+│  state=finished raised Exception>]", "status": "connection_failed"}          │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────── ✅ Agent Final Answer ────────────────────────────╮
+│                                                                              │
+│  Agent: Wiki Knowledge Expert                                                │
+│                                                                              │
+│  Final Answer:                                                               │
+│  Connection status: Failed. API URL: http://wiki.d00pa.pl. Error:            │
+│  RetryError[<Future at 0x10cb7d1d0 state=finished raised Exception>].        │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+🚀 Crew: crew
+└── 📋 Task: 0553adeb-0ec9-4965-91ee-2734491174fc
+    Assigned to: Wiki Knowledge Expert
+    Status: ✅ Completed
+    └── 🔧 Used 
+        /Users/jakubszewczyk/Documents/Wiki/wiki/src/wiki/wiki-js-mcp/venv/bin/p
+        ython3_/Users/jakubszewczyk/Documents/Wiki/wiki/src/wiki/wiki-js-mcp/src
+        /wiki_mcp_server.py_wikijs_connection_status (1)╭────────────────────────────── Task Completion ───────────────────────────────╮
+│                                                                              │
+│  Task Completed                                                              │
+│  Name: 0553adeb-0ec9-4965-91ee-2734491174fc                                  │
+│  Agent: Wiki Knowledge Expert                                                │
+│  Tool Args:                                                                  │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+
+============================================================
+Task Result:
+============================================================
+Connection status: Failed. API URL: http://wiki.d00pa.pl. Error: RetryError[<Future at 0x10cb7d1d0 state=finished raised Exception>].
+╭────────────────────────── Trace Batch Finalization ──────────────────────────╮
+│ ✅ Trace batch finalized with session ID:                                    │
+│ 7b3429f2-0bb0-41c4-8306-2eb0e4393c65                                         │
+│                                                                              │
+│ 🔗 View here:                                                                │
+│ https://app.crewai.com/crewai_plus/ephemeral_trace_batches/7b3429f2-0bb0-41c │
+│ 4-8306-2eb0e4393c65?access_code=TRACE-1b62662864                             │
+│ 🔑 Access Code: TRACE-1b62662864                                             │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭────────────────────────────── Crew Completion ───────────────────────────────╮
+│                                                                              │
+│  Crew Execution Completed                                                    │
+│  Name: crew                                                                  │
+│  ID: 5e9f6cbf-b4ad-46c9-9c9f-d5835d854901                                    │
+│  Tool Args:                                                                  │
+│  Final Output: Connection status: Failed. API URL: http://wiki.d00pa.pl.     │
+│  Error: RetryError[<Future at 0x10cb7d1d0 state=finished raised              │
+│  Exception>].                                                                │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+

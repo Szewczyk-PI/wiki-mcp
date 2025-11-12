@@ -1,0 +1,8 @@
+wiki_task:
+  description: >
+    Porzeukaj wiki w poszukiwaniu artykułów na temat Jak dodać skrzynkę w server_panel, następnie jak znajdziesz stronę to podumuj wiedzę z strony.
+    Teskt nie może być z składnią markdown dlatego masz jeszcze narzędzie do czyszczenia tekstu.
+    Podaj również link do wiki.
+  expected_output: >
+    Podsumowanie widzy z wiki wraz z linkiem do strony. Zmień tylko adres localhost:3000 a wiki.d00pa.pl
+  agent: wiki_agent
